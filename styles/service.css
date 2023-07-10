@@ -1,0 +1,112 @@
+
+.box-img{
+    width: 200px;
+    height: 200px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+    padding-bottom: 160px;
+    
+}
+.block1 ,.block2{
+    display: flex;
+    
+    gap: 15px;
+
+}
+.box-prim{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 40px 60px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+
+}
+.box-prim:hover, .btn-other:hover{
+    background-color: rgb(255, 61, 61);
+    color: white;
+}
+.box-desc{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-other{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 19px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: rgb(255, 0, 0);
+}
+.service-desc{
+    margin-left: 55px;
+}
+
+.s-h{
+    color: red;
+}
+.service-tit{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.service-p{
+    margin-left: 5px;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.service-li>li{
+    list-style: decimal;
+    margin-bottom: 9px;
+    font-size: 20px;
+    margin-left: 22px;
+
+}
+.service-li{
+    margin-bottom: 45px;
+}
+.service-ceo-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ceo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-right: 45px;
+    border-right: 2px solid red;
+}
+
+.name
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+.pos{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ceo-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+}
+
