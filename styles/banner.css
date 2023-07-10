@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    background-color: rgba(153, 146, 146, 0.785);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+li{
+    list-style: none;
+}
+a{
+   text-decoration:none;
+   color: black;
+   font-size: 18px;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
