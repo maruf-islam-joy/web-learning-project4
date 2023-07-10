@@ -4,7 +4,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav{
-    background-color: rgba(153, 146, 146, 0.785);
+    background-color: rgba(45, 13, 13, 0.365);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,8 +21,62 @@ a{
    color: black;
    font-size: 18px;
 }
+a:hover{
+    color: white;
+}
 .menus{
     display: flex;
     justify-content: space-around;
     gap: 25px;
 }
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../asset/image/background.jpg"),linear-gradient(rgba(0, 0, 0, 0.588),rgba(0, 0, 0, 0.255));
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+    
+}
+
+
+.ban-tit-head{
+    color: red;
+}
+.ban-tit{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.ban-desc{
+    font-size: 20px;
+    color: white;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    margin-top: 25px;
+}
+.btn-ban{
+    padding: 15px 23px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-ban:hover{
+    background-color: white;
+    color: red;
+}
+
